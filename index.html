@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Royal Bites Pizza — fresh pizza, great taste, and easy WhatsApp ordering.">
+<title>Royal Bites Pizza | Taste the Royal Flavour</title>
+<style>
+:root{--bg:#0b0907;--panel:#17120d;--gold:#ffc928;--red:#e84a28;--text:#fff9ed;--muted:#c9beb0;--line:#6e4d16}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button,a{transition:.2s}img{max-width:100%}
+.wrap{width:min(1120px,92%);margin:auto}.nav{position:sticky;top:0;z-index:10;background:#0b0907ed;border-bottom:1px solid #38280e;backdrop-filter:blur(10px)}.navin{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:72px}.brand{font-size:1.45rem;font-weight:900;letter-spacing:-.7px}.brand span{color:var(--gold)}.links{display:flex;gap:22px;font-size:.92rem}.links a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:999px;background:var(--gold);color:#171006;font-weight:800;border:0;cursor:pointer}.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}.btn.green{background:#18a84a;color:white}.hero{padding:72px 0 64px;background:radial-gradient(ellipse at 78% 40%,#5d2c10 0,transparent 40%),linear-gradient(120deg,#100b07,#1d1008 65%,#080706);overflow:hidden}.heroGrid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:28px}.eyebrow{color:var(--gold);font-size:.8rem;font-weight:900;letter-spacing:3px;text-transform:uppercase}.hero h1{font-size:clamp(2.8rem,6vw,5.4rem);line-height:.98;letter-spacing:-3px;margin:16px 0}.hero h1 span{color:var(--gold)}.script{font-size:clamp(1.25rem,2.6vw,2rem);font-style:italic;color:#f7dba0}.hero p{max-width:460px;color:var(--muted);font-size:1.05rem}.heroPic{font-size:clamp(8rem,20vw,16rem);text-align:center;filter:drop-shadow(0 20px 22px #000);transform:rotate(-8deg)}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.section{padding:58px 0}.sectionTitle{text-align:center;margin:0 auto 28px}.sectionTitle h2{font-size:clamp(2rem,4vw,3rem);margin:0;line-height:1.2}.sectionTitle h2 span{color:var(--gold)}.sectionTitle p{margin:8px 0;color:var(--muted)}.menuGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,#1c1711,#100d09);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 12px 24px #0003}.foodEmoji{height:150px;display:grid;place-items:center;font-size:5.3rem;background:radial-gradient(circle,#593016,#1b1009 68%)}.cardBody{padding:17px}.card h3{margin:0 0 4px}.card p{color:var(--muted);font-size:.92rem;margin:0 0 12px}.priceRow{display:flex;align-items:center;justify-content:space-between;gap:8px}.price{color:var(--gold);font-weight:900;font-size:1.2rem}.smallBtn{border:1px solid #88611c;color:var(--gold);background:transparent;border-radius:999px;padding:8px 12px;font-weight:700;cursor:pointer}.smallBtn:hover{background:var(--gold);color:#140d03}.aboutGrid{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}.aboutArt{min-height:280px;border-radius:18px;border:1px solid var(--line);background:radial-gradient(circle at 50% 40%,#673716,#211207 60%,#0c0906);display:grid;place-items:center;font-size:8rem}.aboutText h2{font-size:2.5rem;margin:0 0 12px}.aboutText h2 span{color:var(--gold)}.aboutText p{color:var(--muted)}.features{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.pill{border:1px solid #674817;border-radius:999px;padding:8px 12px;color:#f9dda0;font-size:.9rem}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.review{padding:20px;border:1px solid var(--line);border-radius:15px;background:var(--panel)}.stars{color:var(--gold);letter-spacing:2px}.review p{color:var(--muted);font-style:italic}.contactBox{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contactItem{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}.contactItem b{display:block;color:var(--gold);margin-bottom:6px}.footer{border-top:1px solid #4a3513;padding:24px 0;color:var(--muted);font-size:.9rem}.footerIn{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.notice{font-size:.82rem;color:#a99b89;margin-top:20px}.mobileMenu{display:none}
+@media(max-width:760px){.links{display:none}.hero{padding:48px 0}.heroGrid,.aboutGrid{grid-template-columns:1fr}.heroPic{font-size:10rem;order:-1}.menuGrid,.reviews{grid-template-columns:repeat(2,1fr)}.contactBox{grid-template-columns:1fr}.hero h1{letter-spacing:-1.5px}.aboutArt{min-height:210px}.navin{min-height:64px}}
+@media(max-width:480px){.menuGrid,.reviews{grid-template-columns:1fr}.heroPic{font-size:8rem}.brand{font-size:1.2rem}.section{padding:42px 0}.btn{padding:11px 14px}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap navin">
+<a class="brand" href="#home">👑 Royal <span>Bites</span></a>
+<nav class="links" aria-label="Main navigation"><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav>
+<a class="btn green" href="#contact">Order on WhatsApp ↗</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap heroGrid">
+<div><div class="eyebrow">Good food • Good mood</div><h1>Royal <span>Bites</span></h1><div class="script">Taste the royal flavour!</div><p>Freshly made pizza, delicious sides, and a little extra happiness in every bite.</p><div class="actions"><a class="btn" href="#menu">Explore Menu →</a><a class="btn green" href="#contact">Order now</a></div></div>
+<div class="heroPic" role="img" aria-label="Illustration of a pizza">🍕</div>
+</div></section>
+<section class="section" id="menu"><div class="wrap"><div class="sectionTitle"><h2>Our <span>Menu</span></h2><p>Freshly made. Always delicious.</p></div><div class="menuGrid" id="menuGrid"></div><p class="notice">Demo menu and prices only. Replace these with the restaurant's confirmed menu before publishing for a real business.</p></div></section>
+<section class="section" id="about"><div class="wrap aboutGrid"><div class="aboutArt" aria-hidden="true">🍕</div><div class="aboutText"><div class="eyebrow">Made with care</div><h2>About <span>Royal Bites</span></h2><p>We believe good food brings people together. Our demo restaurant concept is all about flavour, fresh ingredients, and friendly service.</p><p>Want this website for your own restaurant? Update the business name, menu, location, and ordering details to match the real business.</p><div class="features"><span class="pill">✦ Quality ingredients</span><span class="pill">✦ Friendly service</span><span class="pill">✦ Big flavour</span></div></div></div></section>
+<section class="section" id="reviews"><div class="wrap"><div class="sectionTitle"><h2>Customer <span>Love</span></h2><p>Sample layout for future verified reviews</p></div><div class="reviews"><article class="review"><div class="stars">★★★★★</div><p>“Add a genuine customer review here after getting permission.”</p><b>— Sample review</b></article><article class="review"><div class="stars">★★★★★</div><p>“Replace this text with feedback from a real customer.”</p><b>— Sample review</b></article><article class="review"><div class="stars">★★★★★</div><p>“Use only authentic reviews from actual customers.”</p><b>— Sample review</b></article></div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="sectionTitle"><h2>Let's get you <span>fed</span></h2><p>Update the placeholders before accepting real orders.</p></div><div class="contactBox"><div class="contactItem"><b>🕒 Opening Hours</b>Mon–Sun<br>11:00 AM – 11:00 PM <small>(demo hours)</small></div><div class="contactItem"><b>📞 Contact</b>Phone: replace with real number<br>WhatsApp: replace with real number</div><div class="contactItem"><b>📍 Location</b>Enter the restaurant's real address here.</div></div><div class="actions" style="justify-content:center"><button class="btn green" onclick="orderWhatsApp()">Order on WhatsApp ↗</button><a class="btn" href="#menu">View menu</a></div><p class="notice" style="text-align:center">This is a portfolio demo. The WhatsApp button will work after you add the owner's number in the code.</p></div></section>
+</main>
+<footer class="footer"><div class="wrap footerIn"><a class="brand" href="#home">👑 Royal <span>Bites</span></a><span>Eat good • Feel good</span><span>© <span id="year"></span> Royal Bites — Demo website</span></div></footer>
+<script>
+const menu = [
+ {name:"Margherita Pizza",desc:"Classic cheese, tomato, and basil.",price:149,emoji:"🍕"},
+ {name:"Farmhouse Pizza",desc:"A colourful mix of garden vegetables.",price:199,emoji:"🍕"},
+ {name:"Peri Peri Pizza",desc:"A spicy kick with a cheesy finish.",price:199,emoji:"🌶️"},
+ {name:"Supreme Pizza",desc:"A loaded pizza for big appetites.",price:249,emoji:"🍕"},
+ {name:"White Sauce Pasta",desc:"Creamy, comforting, and delicious.",price:199,emoji:"🍝"},
+ {name:"Garlic Bread",desc:"Toasty bread with garlic and herbs.",price:99,emoji:"🥖"}
+];
+document.getElementById("menuGrid").innerHTML = menu.map(item => `
+ <article class="card"><div class="foodEmoji" aria-hidden="true">${item.emoji}</div><div class="cardBody"><h3>${item.name}</h3><p>${item.desc}</p><div class="priceRow"><span class="price">₹${item.price}</span><button class="smallBtn" onclick="orderItem('${item.name}')">Order</button></div></div></article>
+`).join("");
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// Replace this with the restaurant owner's WhatsApp number, country code included,
+// digits only. Example format for India: 919876543210 (example only).
+const WHATSAPP_NUMBER = "REPLACE_WITH_OWNER_NUMBER";
+function orderItem(item){
+  const message = `Hello Royal Bites! I'd like to order: ${item}. Please confirm availability and delivery details.`;
+  sendWhatsApp(message);
+}
+function orderWhatsApp(){
+  sendWhatsApp("Hello Royal Bites! I'd like to see the menu and place an order.");
+}
+function sendWhatsApp(message){
+  if(!/^\d{10,15}$/.test(WHATSAPP_NUMBER)){
+    alert("Demo button: add the restaurant owner's WhatsApp number in the code before using real orders.");
+    return;
+  }
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,"_blank","noopener");
+}
+</script>
+</body>
+</html>
